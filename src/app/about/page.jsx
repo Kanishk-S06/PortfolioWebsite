@@ -27,7 +27,7 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             <p className="text-lg">
-              Hey there! I'm Kanishk Sharma, a passionate Full Stack Developer
+              Hey there! I am Kanishk Sharma, a passionate Full Stack Developer
               driven by a strong foundation in computer science and a relentless
               problem-solving mindset. With a knack for crafting efficient and
               user-friendly applications, I have garnered experience in both
