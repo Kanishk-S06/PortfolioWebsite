@@ -22,18 +22,15 @@ const AboutPage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      {/* CONTAINER */}
       <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
-        {/* TEXT CONTAINER */}
         <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
-          {/* BIOGRAPHY CONTAINER */}
           <div className="flex flex-col gap-12 justify-center">
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             <p className="text-lg">
               Hey there! I'm Kanishk Sharma, a passionate Full Stack Developer
               driven by a strong foundation in computer science and a relentless
               problem-solving mindset. With a knack for crafting efficient and
-              user-friendly applications, I've garnered experience in both
+              user-friendly applications, I have garnered experience in both
               front-end and back-end development, utilizing technologies like
               NodeJS and NextJS, along with various frameworks. My adaptability
               and quick learning enable me to stay abreast of industry trends,
@@ -72,7 +69,6 @@ const AboutPage = () => {
               ></path>
             </motion.svg>
           </div>
-          {/* SKILLS CONTAINER */}
           <div className="flex flex-col gap-12 justify-center" ref={skillRef}>
             {/* SKILL TITLE */}
             <motion.h1
