@@ -27,7 +27,7 @@ const Homepage = () => {
             Welcome to my digital domain, where full-stack prowess and creative
             flair collide. With expertise in front-end finesse and back-end
             wizardry, my portfolio showcases versatile projects blending design
-            and functionality seamlessly. Let's innovate together, shaping the
+            and functionality seamlessly. Let&apos;s innovate together, shaping the
             digital landscape with every line of code.
           </p>
           {/* BUTTONS */}
