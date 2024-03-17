@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Homepage = () => {
   return (
@@ -27,8 +28,8 @@ const Homepage = () => {
             Welcome to my digital domain, where full-stack prowess and creative
             flair collide. With expertise in front-end finesse and back-end
             wizardry, my portfolio showcases versatile projects blending design
-            and functionality seamlessly. Let&apos;s innovate together, shaping the
-            digital landscape with every line of code.
+            and functionality seamlessly. Let&apos;s innovate together, shaping
+            the digital landscape with every line of code.
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
@@ -37,10 +38,11 @@ const Homepage = () => {
                 My Resume
               </button>
             </a>
-
-            <button className="p-4 rounded-lg ring-1 ring-black">
-              Contact Me
-            </button>
+            <Link href="/contact">
+              <button className="p-4 rounded-lg ring-1 ring-black">
+                Contact Me
+              </button>
+            </Link>
           </div>
         </div>
       </div>

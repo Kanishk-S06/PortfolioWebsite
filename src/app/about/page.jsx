@@ -23,24 +23,17 @@ const AboutPage = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
-        <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
+        <div className="p-4 sm:p-8 md:p-8 lg:p-4 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-36 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
           <div className="flex flex-col gap-12 justify-center">
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             <p className="text-lg">
-              Hey there! I am Kanishk Sharma, a passionate Full Stack Developer
-              driven by a strong foundation in computer science and a relentless
-              problem-solving mindset. With a knack for crafting efficient and
-              user-friendly applications, I have garnered experience in both
-              front-end and back-end development, utilizing technologies like
-              NodeJS and NextJS, along with various frameworks. My adaptability
-              and quick learning enable me to stay abreast of industry trends,
-              delivering cutting-edge solutions. I excel in collaborative
-              environments, leveraging excellent communication skills to work
-              seamlessly with cross-functional teams, ensuring timely project
-              delivery and surpassing client expectations. Fueled by a desire
-              for continuous learning and growth, I am committed to making a
-              positive impact through my work, embodying a strong work ethic and
-              a passion for innovation.
+              Hello, I&apos;m Kanishk Sharma, a full-stack developer with a solid
+              computer science background and problem-solving skills. I
+              specialize in creating efficient, user-friendly applications using
+              technologies like NodeJS and NextJS. I thrive in team settings, where my
+              communication skills contribute to successful projects. I&apos;m
+              committed to continuous learning and innovation, always aiming to
+              make a positive impact with my work
             </p>
             <span className="italic">
               Embrace challenges as opportunities, for they pave the path to
